@@ -1,2 +1,1 @@
-# core-identity-service
-Core component using UUID
+# Core Identifiers
