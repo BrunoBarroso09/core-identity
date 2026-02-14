@@ -1,7 +1,7 @@
 import uuid
 from typing import Final
 
-class GenerateUUID:
+class UUID:
 
     # Centralize service to generate unique identifiers
     #Ensures ID consistency across all microservices in the ecosystem..

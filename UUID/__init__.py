@@ -1,5 +1,5 @@
-from .identifier import GenerateUUID
+from .identifier import UUID
 
-v4 = GenerateUUID.v4
-hex = GenerateUUID.hex
-v5 = GenerateUUID.v5
+v4 = UUID.v4
+hex = UUID.hex
+v5 = UUID.v5
