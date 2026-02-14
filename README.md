@@ -18,6 +18,6 @@ To use this component, simply copy the `Core` folder to the root of your project
 
 ```text
 your_project/
-├── Core/
+├── UUID/
 │   ├── __init__.py
 │   └── identifiers.py
