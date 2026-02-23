@@ -1,5 +1,8 @@
 # Core Identifiers 🚀
 
+
+![Tests](https://github.com/BrunoBarroso09/core-identity/actions/workflows/tests.yml/badge.svg)
+
 Centralized and robust service to manage unique identifiers (UUID) inside the Python ecosystem.
 
 This component was designed to be **agnostic**, allowing multiple projects (APIs, microservices) 
