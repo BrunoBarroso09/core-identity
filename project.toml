@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "core-identity"
+version = "0.1.0"
+description = "Centralized and robust service to manage unique identifiers (UUID) inside the Python ecosystem"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+keywords = ["uuid", "identifier", "microservices", "python"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/BrunoBarroso09/core-identity-service"
+Repository = "https://github.com/BrunoBarroso09/core-identity-service"
