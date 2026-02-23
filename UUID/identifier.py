@@ -1,7 +1,7 @@
 import uuid
 from typing import Final
 
-class UUID:
+class Identifier:
 
     # Centralize service to generate unique identifiers
     #Ensures ID consistency across all microservices in the ecosystem..
@@ -16,10 +16,9 @@ class UUID:
     #Generate random unique identifier using UUID4 hexadecimal
     @staticmethod
     def hex() -> str:
-        return str(uuid.uuid4().hex)
+        return uuid.uuid4().hex
 
     #Generate random unique identifier using UUID5
     @staticmethod
     def v5(identifier: str) -> str:
-        my_namespace = uuid.NAMESPACE_OID
-        return str(uuid.uuid5(my_namespace, identifier))
+        return str(uuid.uuid5(Identifier.NAMESPACE, identifier))
