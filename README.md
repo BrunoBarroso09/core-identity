@@ -13,7 +13,6 @@ to use the same logic to generate IDs, ensuring consistency.
 - **UUID v4**: Generates totally random IDs for sessions and transactions
 - **UUID v4 Hex**: Compact version (without dashes), ideal for file names or URL keys
 - **UUID v5**: Generates IDs based on *Namespace* and *Input* (e.g. email). The same input always generates the same ID — perfect to avoid duplicates in databases like MongoDB or MySQL
-- **Static Typing**: Fully compatible with `mypy` and modern IDEs (Type Hints)
 
 ## 🛠️ How to use
 
@@ -69,7 +68,7 @@ tests/test_identifiers.py .....   5 passed in 0.02s
 
 ## 📁 Project Structure
 ```text
-core-identity/
+core-uuid/
 ├── UUID/
 │   ├── __init__.py
 │   └── identifier.py

@@ -5,7 +5,7 @@ def test_uuid4_is_string():
     result = Identifier.v4()
     assert isinstance(result, str)
 
-def test_uuid4_format_valido():
+def test_uuid4_format_valid():
     result = Identifier.v4()
     uuid.UUID(result, version=4)
 

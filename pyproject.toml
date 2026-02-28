@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "core-identity"
-version = "0.1.0"
+version = "0.1.1"
 description = "Centralized and robust service to manage unique identifiers (UUID) inside the Python ecosystem"
 readme = "README.md"
 license = { file = "LICENSE" }
@@ -19,3 +19,10 @@ classifiers = [
 [project.urls]
 Homepage = "https://github.com/BrunoBarroso09/core-identity-service"
 Repository = "https://github.com/BrunoBarroso09/core-identity-service"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["UUID*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
