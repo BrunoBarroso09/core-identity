@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "core-identity"
-version = "0.1.1"
+version = "0.1.2"
 description = "Centralized and robust service to manage unique identifiers (UUID) inside the Python ecosystem"
 readme = "README.md"
 license = { file = "LICENSE" }
